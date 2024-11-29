@@ -6,7 +6,9 @@
   "scripts": {
     "test": "jest --coverage --runInBand --forceExit --verbose false"
   },
-  "dependencies": {},
+  "dependencies": {
+    "redis": "^4.7.0"
+  },
   "devDependencies": {
     "jest": "^27.5.1"
   }
