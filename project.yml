@@ -2,4 +2,4 @@ packages:
   - name: api
     actions:
       - name: search
-        runtime: "nodejs:default"
+        runtime: "nodejs:18"
