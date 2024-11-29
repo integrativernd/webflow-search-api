@@ -1,0 +1,13 @@
+name: webflow-search-api
+alerts:
+  - rule: DEPLOYMENT_FAILED
+  - rule: DOMAIN_FAILED
+functions:
+  - github:
+      branch: master
+      deploy_on_push: true
+      repo: integrativernd/webflow-search-api
+    name: webflow-search-api
+    routes:
+      - path: /
+    source_dir: /
