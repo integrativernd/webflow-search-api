@@ -1,4 +1,4 @@
-const { main } = require("../hello");
+const { main } = require("../index");
 
 describe("Test App", () => {
   test("Hello", () => {

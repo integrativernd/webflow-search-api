@@ -1,8 +1,8 @@
 {
-  "name": "hello",
+  "name": "search",
   "version": "1.0.0",
   "description": "Hello world: NodeJs",
-  "main": "hello.js",
+  "main": "search.js",
   "scripts": {
     "test": "jest --coverage --runInBand --forceExit --verbose false"
   },

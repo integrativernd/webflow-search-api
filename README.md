@@ -13,26 +13,26 @@ This repository contains a sample function written in Node.js JavaScript. You ca
 
 ```
 # clone this repo
-git clone git@github.com:digitalocean/sample-functions-nodejs-helloworld.git
+git clone git@github.com:integrativernd/webflow-search-api.git
 ```
 
 ```
 # deploy the project, using a remote build so that compiled executable matched runtime environment
-doctl serverless deploy sample-functions-nodejs-helloworld --remote-build
+doctl serverless deploy webflow-search-api --remote-build
 ```
 
 The output from the deploy command will resemble the following.
 
 ```
-Deploying 'sample-functions-nodejs-helloworld'
+Deploying 'webflow-search-api'
   to namespace 'fn-...'
   on host '...'
 Submitted function 'sample/hello' for remote building and deployment in runtime nodejs:default (id: ...)
 Processing of action 'sample/hello' is still running remotely ...
-Deployment status recorded in 'sample-functions-nodejs-helloworld/.deployed'
+Deployment status recorded in 'webflow-search-api/.deployed'
 
 Deployed functions ('doctl sls fn get <funcName> --url' for URL):
-  - sample/hello
+  - api/search
 ```
 
 ## Using the Function

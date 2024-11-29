@@ -4,7 +4,7 @@ alerts:
   - rule: DOMAIN_FAILED
 functions:
   - github:
-      branch: master
+      branch: main
       deploy_on_push: true
       repo: integrativernd/webflow-search-api
     name: webflow-search-api
