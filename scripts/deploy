@@ -1,0 +1,4 @@
+#!/bin/zsh
+
+cd ..
+doctl serverless deploy webflow-search-api --remote-build

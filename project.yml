@@ -3,3 +3,5 @@ packages:
     actions:
       - name: search
         runtime: "nodejs:18"
+        environment:
+          REDIS_URL: "${REDIS_URL}"
